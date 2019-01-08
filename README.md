@@ -1,6 +1,6 @@
 # Is it Time to Swish? Comparing Deep Learning Activation Functions Across NLP tasks 
 
-This repository contains code and data for our EMNLP paper on [Comparing Deep Learning Activation Functions Across NLP tasks](http://aclweb.org/anthology/D18-1472). 
+This repository contains selected code and data for our EMNLP paper on [Comparing Deep Learning Activation Functions Across NLP tasks](http://aclweb.org/anthology/D18-1472). 
 
 ## Citation 
 
@@ -35,6 +35,8 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 Exemplarily, we provide the Persuasive Essays (PE) dataset used in the Sentence Classification tasks. We also called it ``AM`` there.
 The other sentence classification task (MR, SUBJ, TREC) are available from [SentEval](https://github.com/facebookresearch/SentEval). For space reasons, we only provide the vectorized input for the dev set. For train and test set, you should run [InferSent](https://github.com/facebookresearch/InferSent) (or any other sentence embedding technique) on the provided text files. It is safer to also vectorize the dev set in this case using the same technique as for train and test.
 
+### Sequence Tagging
+
 ## Code
 
 ### Sentence Classification
@@ -43,3 +45,5 @@ To run a sample script, go e.g. to `PE-infersent/scripts/tanh`. In this folder, 
 
 **NB** You need to adapt all paths to your local machine. This concerns multiple python files. You may also wish to copy the file ``progs/activation.py`` to your local anaconda path, e.g., ``.local/lib/python3.5/site-packages/keras/activations.py``
 
+
+### Sequence Tagging
