@@ -39,7 +39,7 @@ The other sentence classification task (MR, SUBJ, TREC) are available from [Sent
 
 ### Sentence Classification
 
-To run a sample script, go e.g. to PE-infersent/scripts/tanh. In this folder, all activation functions in the hidden layers use the tanh activation function. In each script, ``meta.py`` is invoked with specific random hyperparameters. ``meta.py`` can be found in ``progs``. This loads the data and invokes ``MLPs.py`` from the ``neuralnets`` directory, which runs the code and does the evaluation. 
+To run a sample script, go e.g. to `PE-infersent/scripts/tanh'. In this folder, all activation functions in the hidden layers use the tanh activation function. In each script, ``meta.py`` is invoked with specific random hyperparameters. ``meta.py`` can be found in ``progs``. This loads the data and invokes ``MLPs.py`` from the ``neuralnets`` directory, which runs the code and does the evaluation. 
 
 **NB** You need to adapt all paths to your local machine. This concerns multiple python files. You may also wish to copy the file ``progs/activation.py`` to your local anaconda path, e.g., ``.local/lib/python3.5/site-packages/keras/activations.py``
 
