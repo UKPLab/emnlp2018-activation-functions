@@ -33,7 +33,7 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 ### Sentence Classification
 
 Exemplarily, we provide the Persuasive Essays (PE) dataset used in the Sentence Classification tasks. We also called it ``AM`` there.
-The other sentence classification task (MR, SUBJ, TREC) are available from SentEval. For space reasons, we only provide the vectorized input for the dev set. For train and test set, you should run InferSent (or any other sentence embedding technique) on the provided text files. It is safer to also vectorize the dev set in this case using the same technique as for train and test.
+The other sentence classification task (MR, SUBJ, TREC) are available from [SentEval](https://github.com/facebookresearch/SentEval). For space reasons, we only provide the vectorized input for the dev set. For train and test set, you should run [InferSent](https://github.com/facebookresearch/InferSent) (or any other sentence embedding technique) on the provided text files. It is safer to also vectorize the dev set in this case using the same technique as for train and test.
 
 ## Code
 
