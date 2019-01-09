@@ -46,7 +46,7 @@ We provide the same AM data on token-level for the sequence tagging tasks in ``d
 
 To run a sample script, go e.g. to `PE-infersent/scripts/tanh`. In this folder, all activation functions in the hidden layers use the tanh activation function. In each script, ``meta.py`` is invoked with specific random hyperparameters. ``meta.py`` can be found in ``progs``. This loads the data and invokes ``MLPs.py`` from the ``neuralnets`` directory, which runs the code and does the evaluation. 
 
-**NB** You need to adapt all paths to your local machine. This concerns multiple python files. You may also wish to copy the file ``progs/activation.py`` to your local anaconda path, e.g., ``.local/lib/python3.5/site-packages/keras/activations.py``
+**NB** You need to adapt all paths to your local machine. This concerns multiple python files. You may also wish to copy the file ``progs/activations.py`` to your local anaconda path, e.g., ``.local/lib/python3.5/site-packages/keras/activations.py``
 
 
 ### Sequence Tagging
@@ -55,5 +55,5 @@ To run a sample script, go e.g., to `runs_seqtagging/scripts/penalized_tanh/`. I
 
 The original BiLSTM code is available from [here](https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf).
 
-**NB** You need to adapt all paths to your local machine. This concerns multiple python files. You may also wish to copy the file ``progs/activation.py`` to your local anaconda path, e.g., ``.local/lib/python3.5/site-packages/keras/activations.py``
+**NB** You need to adapt all paths to your local machine. This concerns multiple python files. You may also wish to copy the file ``progs/activations.py`` to your local anaconda path, e.g., ``.local/lib/python3.5/site-packages/keras/activations.py``
 
